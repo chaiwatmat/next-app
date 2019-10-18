@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const links = [
   { href: "https://zeit.co/now", label: "ZEIT" },
-  { href: "https://github.com/zeit/next.js", label: "GitHub" },
+  { href: "https://github.com/chaiwatmat", label: "GitHub" },
   { href: "https://zeit.co/dashboard", label: "Dashboard" }
 ].map(link => {
   link.key = `nav-link-${link.href}-${link.label}`;
